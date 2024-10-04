@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+ <item>
+    <id>1</id>
+ <name>espada de diamante</name>
+ <type>arma</type>
+ <rarity>Épico</rarity>
+ <damage>Daño</damage>
+ <description>Esta rama sirve para eliminar enemigos y defenderte de ladrones y rojos</description>
+ </item>
+
+  <item>
+    <id>2</id>
+ <name>bloque de tierra</name>
+ <type>Bloque</type>
+ <rarity>Común</rarity>
+ <damage>Para cultivar alimentos</damage>
+ <description>este bloque sirve para cultivar alimentos y poder hacer campos</description>
+ </item>
+
+  <item>
+    <id>3</id>
+ <name>Polvo de hueso</name>
+ <type>poción</type>
+ <rarity>raro</rarity>
+ <damage>para el cultivo</damage>
+ <description>Sirve para hacer crecer más rapido el cultivo del campo</description>
+ </item>
+
+  <item>
+    <id>4</id>
+ <name>casco de diamante</name>
+ <type>Defensa</type>
+ <rarity>Épico</rarity>
+ <damage>Sirve par evitar daño de enemigos</damage>
+ <description>Te puede salvar de morir más de una vez gracias a que reduze significativamente el daño recibido</description>
+ </item>
+
+  <item>
+    <id>5</id>
+ <name>cama</name>
+ <type>mueble</type>
+ <rarity>Común</rarity>
+ <damage>Sirve para descansar en la noche</damage>
+ <description>Te libras de los mostruos durimendo por la noche y que así no te ataquen.</description>
+ </item>
+ </minecraftItems>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+    <crafteables>
+        <item>
+            <id>1</id>
+            <name>espada de diamante</name>
+            <type>arma</type>
+            <rarity>Épico</rarity>
+            <damage>Daño</damage>
+            <description>Esta arma sirve para eliminar enemigos y defenderte de ladrones y rojos</description>
+            <craftingMaterials>
+                <material>2 diamantes</material>
+                <material>1 palo</material>
+            </craftingMaterials>
+            <enchantable>true</enchantable>
+            <enchants>
+                <enchant>Filo I</enchant>
+                <enchant>Retroceso I</enchant>
+            </enchants>
+        </item>
+        
+        <item>
+            <id>4</id>
+            <name>casco de diamante</name>
+            <type>Defensa</type>
+            <rarity>Épico</rarity>
+            <damage>Sirve para evitar daño de enemigos</damage>
+            <description>Te puede salvar de morir más de una vez gracias a que reduce significativamente el daño recibido</description>
+            <craftingMaterials>
+                <material>5 diamantes</material>
+            </craftingMaterials>
+            <enchantable>true</enchantable>
+            <enchants>
+                <enchant>Protección I</enchant>
+            </enchants>
+        </item>
+
+        <item>
+             <id>5</id>
+                 <name>cama</name>
+                <type>mueble</type>
+                <rarity>Común</rarity>
+                 <damage>Sirve para descansar en la noche</damage>
+                  <craftingMaterials>
+                <material>3 bloques de lana</material>
+                <material>3 tablas de madera</material>
+            </craftingMaterials>
+            <enchantable>false</enchantable>
+            <enchants>
+                <description>Te libras de los mostruos durimendo por la noche y que así no te ataquen.</description>
+                </item>
+    </crafteables>
+
+    <nocrafteables>
+        <item>
+            <id>2</id>
+            <name>bloque de tierra</name>
+            <type>Bloque</type>
+            <rarity>Común</rarity>
+            <damage>Para cultivar alimentos</damage>
+            <description>Este bloque sirve para cultivar alimentos y poder hacer campos</description>
+            <craftingMaterials/>
+            <enchantable>false</enchantable>
+        </item>
+
+        <item>
+            <id>3</id>
+            <name>Polvo de hueso</name>
+            <type>poción</type>
+            <rarity>raro</rarity>
+            <damage>Para el cultivo</damage>
+            <description>Sirve para hacer crecer más rápido el cultivo del campo</description>
+            <craftingMaterials/>
+            <enchantable>false</enchantable>
+        </item>
+
+        <item>
+            <id>5</id>
+            <name>cama</name>
+            <type>mueble</type>
+            <rarity>Común</rarity>
+            <damage>Sirve para descansar en la noche</damage>
+            <description>Te libras de los monstruos durmiendo por la noche y así no te ataquen.</description>
+            <craftingMaterials/>
+            <enchantable>false</enchantable>
+        </item>
+    </nocrafteables>
+</minecraftItems>
