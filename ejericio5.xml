@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CurriculumVitae>
+    <DatosPersonales>
+        <Nombre>Miquel</Nombre>
+        <Apellidos>Serra Costa</Apellidos>
+        <Telefono>661102031</Telefono>
+        <Email>llauraor13@yahoo.com</Email>
+        <Direccion>Calle Dénia,31,Pedreguer 03750</Direccion>
+    </DatosPersonales>
+   <Resumen>
+        <Perfil>Técnico de redes con más de 4 años de experiencia en administración y gestión de reds.</Perfil>
+    </Resumen>
+    <ExperienciaLaboral>
+        <Trabajo>
+            <Puesto>Técnico de Redes</Puesto>
+            <Empresa>Redes Enredadas</Empresa>
+            <FechaInicio>03-2020</FechaInicio>
+            <FechaFin>Actualidad</FechaFin>
+            <Descripcion>Administración de redes LAN/WAN, gestión de firewalls y soporte técnico a usuarios.</Descripcion>
+        </Trabajo>
+    </ExperienciaLaboral>
+    <Educacion>
+        <Titulo>
+            <Grado>Técnico Superior en Administración de Sistemas Informáticos en Red</Grado>
+            <Institucion>Instituto I.E.S. La Mar Xàbia</Institucion>
+            <Fecha>2010-2012</Fecha>
+        </Titulo>
+    </Educacion>
+    <Habilidades>
+        <Habilidad>Configuración de Routers y Switches</Habilidad>
+        <Habilidad>Gestión de Firewall</Habilidad>
+        <Habilidad>Protocolos TCP/IP</Habilidad>
+        <Habilidad>Diagnóstico de Redes</Habilidad>
+        <Habilidad>Trabajo en equipo</Habilidad>
+    </Habilidades>
+    <Certificaciones>
+        <Certificacion>
+            <Nombre>CCNA</Nombre>
+            <Institucion>Cisco</Institucion>
+            <FechaObtencion>03-2015</FechaObtencion>
+        </Certificacion>
+    </Certificaciones>
+</CurriculumVitae>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+    <crafteables>
+        <item crafteable="true" enchantable="true">
+            <id>1</id>
+            <name>espada de diamante</name>
+            <type>arma</type>
+            <rarity>Épico</rarity>
+            <damage>Daño</damage>
+            <description>Esta arma sirve para eliminar enemigos y defenderte de ladrones y rojos</description>
+            <craftingMaterials>
+                <material>2 diamantes</material>
+                <material>1 palo</material>
+            </craftingMaterials>
+            <enchants>
+                <enchant>Filo I</enchant>
+                <enchant>Retroceso I</enchant>
+            </enchants>
+            <durability>
+                <destructible>true</destructible>
+                <wear>10</wear> 
+            </durability>
+        </item>
+        
+        <item crafteable="true" enchantable="true">
+            <id>4</id>
+            <name>casco de diamante</name>
+            <type>Defensa</type>
+            <rarity>Épico</rarity>
+            <damage>Sirve para evitar daño de enemigos</damage>
+            <description>Te puede salvar de morir más de una vez gracias a que reduce significativamente el daño recibido</description>
+            <craftingMaterials>
+                <material>5 diamantes</material>
+            </craftingMaterials>
+            <enchants>
+                <enchant>Protección I</enchant>
+            </enchants>
+            <durability>
+                <destructible>true</destructible>
+                <wear>15</wear> 
+            </durability>
+        </item>
+
+        <item crafteable="true" enchantable="false">
+            <id>5</id>
+            <name>cama</name>
+            <type>mueble</type>
+            <rarity>Común</rarity>
+            <damage>Sirve para descansar en la noche</damage>
+            <description>Te libras de los monstruos durmiendo por la noche y así no te ataquen.</description>
+            <craftingMaterials>
+                <material>3 bloques de lana</material>
+                <material>3 tablas de madera</material>
+            </craftingMaterials>
+            <durability>
+                <destructible>false</destructible>
+            </durability>
+        </item>
+         <item crafteable="true" enchantable="true">
+            <id>7</id>
+            <name>hacha de piedra</name>
+            <type>herramienta</type>
+            <rarity>Común</rarity>
+            <damage>Sirve para talar árboles</damage>
+            <description>Ideal para recoger madera rápidamente y de forma mas eficaz.</description>
+            <craftingMaterials>
+                <material>3 bloques de piedra</material>
+                <material>2 palos</material>
+            </craftingMaterials>
+            <durability>
+                <destructible>true</destructible>
+                <wear>5</wear>
+            </durability>
+        </item>
+         <item crafteable="true" enchantable="false">
+            <id>8</id>
+            <name>pico de hierro</name>
+            <type>herramienta</type>
+            <rarity>Raro</rarity>
+            <damage>Usado para excavar</damage>
+            <description>Permite extraer bloques de tierra y minerales con mayor rapidez.</description>
+            <craftingMaterials>
+                <material>3 lingotes de hierro</material>
+                <material>2 palos</material>
+            </craftingMaterials>
+            <durability>
+                <destructible>true</destructible>
+                <wear>8</wear>
+            </durability>
+        </item>
+         <item crafteable="true" enchantable="true">
+            <id>9</id>
+            <name>espada de hierro</name>
+            <type>arma</type>
+            <rarity>Raro</rarity>
+            <damage>Usada para combatir enemigos</damage>
+            <description>Un arma que sirve para la defensa y el ataque.</description>
+            <craftingMaterials>
+                <material>2 lingotes de hierro</material>
+                <material>1 palo</material>
+            </craftingMaterials>
+            <enchants>
+                <enchant>Filo I</enchant>
+            </enchants>
+            <durability>
+                <destructible>true</destructible>
+                <wear>10</wear>
+            </durability>
+        </item>
+    </crafteables>
+
+    <nocrafteables>
+        <item crafteable="false" enchantable="false">
+            <id>2</id>
+            <name>bloque de tierra</name>
+            <type>Bloque</type>
+            <rarity>Común</rarity>
+            <damage>Para cultivar alimentos</damage>
+            <description>Este bloque sirve para cultivar alimentos y poder hacer campos</description>
+            <craftingMaterials/>
+            <durability>
+                <destructible>false</destructible>
+            </durability>
+        </item>
+
+        <item crafteable="false" enchantable="false">
+            <id>3</id>
+            <name>Polvo de hueso</name>
+            <type>poción</type>
+            <rarity>raro</rarity>
+            <damage>Para el cultivo</damage>
+            <description>Sirve para hacer crecer más rápido el cultivo del campo</description>
+            <craftingMaterials/>
+            <durability>
+                <destructible>false</destructible>
+            </durability>
+        </item>
+
+        <item crafteable="false" enchantable="false">
+            <id>6</id>
+            <name>cama</name>
+            <type>mueble</type>
+            <rarity>Común</rarity>
+            <damage>Sirve para descansar en la noche</damage>
+            <description>Te libras de los monstruos durmiendo por la noche y así no te ataquen.</description>
+            <craftingMaterials/>
+            <durability>
+                <destructible>false</destructible>
+            </durability>
+        </item>
+    </nocrafteables>
+</minecraftItems>

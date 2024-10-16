@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Alumno>
+    <DatosPersonales>
+        <Nombre>Miquel</Nombre>
+        <Apellidos>Serra Costa</Apellidos>
+        <Nia>10658662</Nia>
+    </DatosPersonales>
+    <Modulos>
+        <Modulo>
+            <Nombre>lenguajes de marcas y sistemas de gestión de información</Nombre>
+            <Nota>8</Nota>
+        </Modulo>
+        <Modulo>
+            <Nombre>inmplantación de sistemas operativos</Nombre>
+            <Nota>7</Nota>
+        </Modulo>
+        <Modulo>
+            <Nombre>gestión de base de datos</Nombre>
+            <Nota>6</Nota>
+        </Modulo>
+        <Modulo>
+            <Nombre>planificación y administración de redes</Nombre>
+            <Nota>7</Nota>
+        </Modulo>
+         <Modulo>
+            <Nombre>fundamentos del Hardware</Nombre>
+            <Nota>8</Nota>
+        </Modulo>
+         <Modulo>
+            <Nombre>ingles</Nombre>
+            <Nota>9</Nota>
+        </Modulo>
+         <Modulo>
+            <Nombre>proyecto intermodular</Nombre>
+            <Nota>9</Nota>
+        </Modulo>
+    </Modulos>
+</Alumno>
