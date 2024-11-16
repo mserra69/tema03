@@ -1,0 +1,35 @@
+<!ELEMENT ListadoTickets (Membrete, Sucursal, Ticket+)>
+<!ELEMENT Membrete (CIF, RazonSocial, PaginaWeb)>
+<!ELEMENT CIF (#PCDATA)>
+<!ELEMENT RazonSocial (#PCDATA)>
+<!ELEMENT PaginaWeb (#PCDATA)>
+
+<!ELEMENT Sucursal (Codigo, Nombre, Direccion, CodigoPostal, Poblacion, Telefonos)>
+<!ELEMENT Codigo (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>
+<!ELEMENT CodigoPostal (#PCDATA)>
+<!ELEMENT Poblacion (#PCDATA)>
+<!ELEMENT Telefonos (Telefono+)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ATTLIST Telefono tipo (fijo|movil) #REQUIRED>
+
+<!ELEMENT Ticket (Cabecera, Lineas, Resumen)>
+<!ELEMENT Cabecera (Numero, Fecha, Hora, Empleado)>
+<!ELEMENT Numero (#PCDATA)>
+<!ELEMENT Fecha (#PCDATA)>
+<!ELEMENT Hora (#PCDATA)>
+<!ELEMENT Empleado (#PCDATA)>
+
+<!ELEMENT Lineas (Linea+)>
+<!ELEMENT Linea (Cantidad, CodigoArticulo, Descripcion, PrecioUnitario, Importe)>
+<!ELEMENT Cantidad (#PCDATA)>
+<!ELEMENT CodigoArticulo (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT PrecioUnitario (#PCDATA)>
+<!ELEMENT Importe (#PCDATA)>
+
+<!ELEMENT Resumen (FormaPago, ImporteTotal)>
+<!ELEMENT FormaPago (#PCDATA)>
+<!ATTLIST FormaPago valor (efectivo|tarjeta|transferencia) #REQUIRED>
+<!ELEMENT ImporteTotal (#PCDATA)>

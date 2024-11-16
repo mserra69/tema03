@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ListadoTickets SYSTEM "ejercicio6.dtd">
+<ListadoTickets>
+    <Membrete>
+        <CIF>B12345678</CIF>
+        <RazonSocial>Materiales Al-papel S.L.</RazonSocial>
+        <PaginaWeb>www.materialesalpapel.com</PaginaWeb>
+    </Membrete>
+    <Sucursal>
+        <Codigo>SUC001</Codigo>
+        <Nombre>Sucursal Beniarbeig</Nombre>
+        <Direccion>Carrer Pamis, 10</Direccion>
+        <CodigoPostal>03500</CodigoPostal>
+        <Poblacion>Beniarbeig</Poblacion>
+        <Telefonos>
+            <Telefono tipo="fijo">911234567</Telefono>
+            <Telefono tipo="movil">601234567</Telefono>
+        </Telefonos>
+    </Sucursal>
+    <Ticket>
+        <Cabecera>
+            <Numero>T001</Numero>
+            <Fecha>2024-11-15</Fecha>
+            <Hora>10:30</Hora>
+            <Empleado>Ana Boueles</Empleado>
+        </Cabecera>
+        <Lineas>
+            <Linea>
+                <Cantidad>2</Cantidad>
+                <CodigoArticulo>A001</CodigoArticulo>
+                <Descripcion>Bolígrafo Azul</Descripcion>
+                <PrecioUnitario>0.50</PrecioUnitario>
+                <Importe>1.00</Importe>
+            </Linea>
+            <Linea>
+                <Cantidad>1</Cantidad>
+                <CodigoArticulo>A002</CodigoArticulo>
+                <Descripcion>Cuaderno A4</Descripcion>
+                <PrecioUnitario>2.50</PrecioUnitario>
+                <Importe>2.50</Importe>
+            </Linea>
+            <Linea>
+                <Cantidad>3</Cantidad>
+                <CodigoArticulo>A003</CodigoArticulo>
+                <Descripcion>Tijeras</Descripcion>
+                <PrecioUnitario>1.50</PrecioUnitario>
+                <Importe>4.50</Importe>
+            </Linea>
+        </Lineas>
+        <Resumen>
+            <FormaPago valor="efectivo">efectivo</FormaPago>
+            <ImporteTotal>8.00</ImporteTotal>
+        </Resumen>
+    </Ticket>
+    <Ticket>
+        <Cabecera>
+            <Numero>T002</Numero>
+            <Fecha>2024-11-15</Fecha>
+            <Hora>11:15</Hora>
+            <Empleado>Paco Jones</Empleado>
+        </Cabecera>
+        <Lineas>
+            <Linea>
+                <Cantidad>1</Cantidad>
+                <CodigoArticulo>A001</CodigoArticulo>
+                <Descripcion>Bolígrafo Azul</Descripcion>
+                <PrecioUnitario>0.50</PrecioUnitario>
+                <Importe>0.50</Importe>
+            </Linea>
+            <Linea>
+                <Cantidad>2</Cantidad>
+                <CodigoArticulo>A004</CodigoArticulo>
+                <Descripcion>Carpeta</Descripcion>
+                <PrecioUnitario>1.20</PrecioUnitario>
+                <Importe>2.40</Importe>
+            </Linea>
+            <Linea>
+                <Cantidad>1</Cantidad>
+                <CodigoArticulo>A003</CodigoArticulo>
+                <Descripcion>Tijeras</Descripcion>
+                <PrecioUnitario>1.50</PrecioUnitario>
+                <Importe>1.50</Importe>
+            </Linea>
+        </Lineas>
+        <Resumen>
+            <FormaPago valor="tarjeta">tarjeta</FormaPago>
+            <ImporteTotal>4.40</ImporteTotal>
+        </Resumen>
+    </Ticket>
+</ListadoTickets>
