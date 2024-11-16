@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas SYSTEM "ejercicio7.dtd">
+<facturas lang="es">
+    <factura numero="F001">
+        <membrete>
+            <cif>A12345678</cif>
+            <razon_social>Grupo Moli S.L.</razon_social>
+            <direccion>Carrer Caidos por Dios y por España, 123</direccion>
+            <codigo_postal>03500</codigo_postal>
+            <poblacion>Pamis</poblacion>
+            <telefono>912345678</telefono>
+            <email>contactocontactoso@gmail.com</email>
+        </membrete>
+        <fecha>2024-11-16</fecha>
+        <cliente>
+            <dni>12345678Z</dni>
+            <nombre>Juan Arabi</nombre>
+            <direccion_cliente>Avenida General Mola, 45</direccion_cliente>
+            <codigo_postal_cliente>28045</codigo_postal_cliente>
+            <poblacion_cliente>Cocentaina</poblacion_cliente>
+        </cliente>
+        <productos>
+            <producto>
+                <codigo>P001</codigo>
+                <cantidad>2</cantidad>
+                <descripcion>Producto A</descripcion>
+                <precio_unitario>15.50</precio_unitario>
+                <iva>21</iva>
+            </producto>
+            <producto>
+                <codigo>P002</codigo>
+                <cantidad>1</cantidad>
+                <descripcion>Producto B</descripcion>
+                <precio_unitario>25.00</precio_unitario>
+                <iva>10</iva>
+            </producto>
+            <producto>
+                <codigo>P003</codigo>
+                <cantidad>3</cantidad>
+                <descripcion>Producto C</descripcion>
+                <precio_unitario>7.99</precio_unitario>
+                <iva>21</iva>
+            </producto>
+        </productos>
+        <resumen>
+            <forma_pago tipo="tarjeta">tarjeta</forma_pago>
+            <descuento>5</descuento>
+        </resumen>
+    </factura>
+    <factura numero="F002">
+        <membrete>
+            <cif>B98765432</cif>
+            <razon_social>Servicios Torrente S.L.</razon_social>
+            <direccion>Plaza de España, 10</direccion>
+            <codigo_postal>08001</codigo_postal>
+            <poblacion>Rubielos de Mora</poblacion>
+            <telefono>932345678</telefono>
+            <email>infoserviciostorrente@gmail.com.com</email>
+        </membrete>
+        <fecha>2024-11-16</fecha>
+        <cliente>
+            <dni>87654321X</dni>
+            <nombre>María Soler</nombre>
+            <direccion_cliente>Carrer del Sol, 22</direccion_cliente>
+            <codigo_postal_cliente>08025</codigo_postal_cliente>
+            <poblacion_cliente>Barcelona</poblacion_cliente>
+        </cliente>
+        <productos>
+            <producto>
+                <codigo>P010</codigo>
+                <cantidad>5</cantidad>
+                <descripcion>Producto X</descripcion>
+                <precio_unitario>12.00</precio_unitario>
+                <iva>10</iva>
+            </producto>
+            <producto>
+                <codigo>P011</codigo>
+                <cantidad>2</cantidad>
+                <descripcion>Producto Y</descripcion>
+                <precio_unitario>18.50</precio_unitario>
+                <iva>21</iva>
+            </producto>
+            <producto>
+                <codigo>P012</codigo>
+                <cantidad>4</cantidad>
+                <descripcion>Producto Z</descripcion>
+                <precio_unitario>9.75</precio_unitario>
+                <iva>21</iva>
+            </producto>
+        </productos>
+        <resumen>
+            <forma_pago tipo="efectivo">efectivo</forma_pago>
+        </resumen>
+    </factura>
+</facturas>

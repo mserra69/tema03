@@ -1,0 +1,36 @@
+<!ATTLIST facturas lang CDATA #REQUIRED>
+
+<!ELEMENT facturas (factura+)>
+<!ELEMENT factura (membrete, fecha, cliente, productos, resumen)>
+<!ATTLIST factura numero ID #REQUIRED>
+
+<!ELEMENT membrete (cif, razon_social, direccion, codigo_postal, poblacion, telefono, email)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT razon_social (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT cliente (dni, nombre, direccion_cliente, codigo_postal_cliente, poblacion_cliente)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion_cliente (#PCDATA)>
+<!ELEMENT codigo_postal_cliente (#PCDATA)>
+<!ELEMENT poblacion_cliente (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (codigo, cantidad, descripcion, precio_unitario, iva)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio_unitario (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+
+<!ELEMENT resumen (forma_pago, descuento?)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+<!ATTLIST forma_pago tipo (efectivo | tarjeta | cheque | transferencia) #REQUIRED>
