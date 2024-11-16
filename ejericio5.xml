@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CurriculumVitae>
+<!DOCTYPE CurriculumVitae SYSTEM "ejercicio5.dtd">
+
+<CurriculumVitae lang="es">
     <DatosPersonales>
         <Nombre>Miquel</Nombre>
         <Apellidos>Serra Costa</Apellidos>
@@ -35,8 +37,8 @@
     </Habilidades>
     <Certificaciones>
         <Certificacion>
-            <Nombre>CCNA</Nombre>
-            <Institucion>Cisco</Institucion>
+            <Nombre_titulo>CCNA</Nombre_titulo>
+            <Autoridad>Cisco</Autoridad>
             <FechaObtencion>03-2015</FechaObtencion>
         </Certificacion>
     </Certificaciones>

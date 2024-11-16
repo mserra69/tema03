@@ -1,0 +1,35 @@
+<!ELEMENT CurriculumVitae (DatosPersonales, Resumen, ExperienciaLaboral, Educacion, Habilidades, Certificaciones)>
+<!ELEMENT DatosPersonales (Nombre, Apellidos, Telefono, Email, Direccion)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>
+
+<!ELEMENT Resumen (Perfil)>
+<!ELEMENT Perfil (#PCDATA)>
+
+<!ELEMENT ExperienciaLaboral (Trabajo+)>
+<!ELEMENT Trabajo (Puesto, Empresa, FechaInicio, FechaFin, Descripcion)>
+<!ELEMENT Puesto (#PCDATA)>
+<!ELEMENT Empresa (#PCDATA)>
+<!ELEMENT FechaInicio (#PCDATA)>
+<!ELEMENT FechaFin (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+
+<!ELEMENT Educacion (Titulo+)>
+<!ELEMENT Titulo (Grado, Institucion, Fecha)>
+<!ELEMENT Grado (#PCDATA)>
+<!ELEMENT Institucion (#PCDATA)>
+<!ELEMENT Fecha (#PCDATA)>
+
+<!ELEMENT Habilidades (Habilidad+)>
+<!ELEMENT Habilidad (#PCDATA)>
+
+<!ELEMENT Certificaciones (Certificacion+)>
+<!ELEMENT Certificacion (Nombre_titulo, Autoridad, FechaObtencion)>
+<!ELEMENT Nombre_titulo (#PCDATA)>
+<!ELEMENT Autoridad (#PCDATA)>
+<!ELEMENT FechaObtencion (#PCDATA)>
+
+<!ATTLIST CurriculumVitae lang CDATA #REQUIRED>
