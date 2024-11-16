@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Juego SYSTEM "ejeercicio4.dtd">
+<Juego lang="es">
+    <Jugadores>
+        <Jugador id="J1">
+            <Nombre>Antonio</Nombre>
+            <Simbolo>X</Simbolo>
+        </Jugador>
+        <Jugador id="J2">
+            <Nombre>Sento</Nombre>
+            <Simbolo>O</Simbolo>
+        </Jugador>
+    </Jugadores>
+    <Tablero>
+        <Fila numero="1">
+            <Celda columna="1">X</Celda>
+            <Celda columna="2">O</Celda>
+            <Celda columna="3">X</Celda>
+        </Fila>
+        <Fila numero="2">
+            <Celda columna="1"></Celda>
+            <Celda columna="2">O</Celda>
+            <Celda columna="3"></Celda>
+        </Fila>
+        <Fila numero="3">
+            <Celda columna="1"></Celda>
+            <Celda columna="2"></Celda>
+            <Celda columna="3">X</Celda>
+        </Fila>
+    </Tablero>
+    <TurnoActual>J2</TurnoActual>
+</Juego>
