@@ -31,5 +31,5 @@
 
 <!ELEMENT Resumen (FormaPago, ImporteTotal)>
 <!ELEMENT FormaPago (#PCDATA)>
-<!ATTLIST FormaPago valor (efectivo|tarjeta|transferencia) #REQUIRED>
+<!ATTLIST FormaPago valor (efectivo|tarjeta|bizum) #REQUIRED>
 <!ELEMENT ImporteTotal (#PCDATA)>
